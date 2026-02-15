@@ -1,5 +1,7 @@
 # RT-Thread Key_LED Project (English)
 
+[中文版](README_zh.md)
+
 ## Overview
 
 This is an RT-Thread based project developed for the **STM32F407ZGTx** microcontroller. The project demonstrates basic RT-Thread OS features including thread management, custom MSH (FinSH) commands, and GPIO control.

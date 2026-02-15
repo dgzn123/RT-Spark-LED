@@ -1,5 +1,7 @@
 # RT-Thread Key_LED 项目 (中文)
 
+[English Version](README.md)
+
 ## 简介
 
 这是一个基于 RT-Thread 操作系统的 **STM32F407ZGTx** 微控制器项目。该项目演示了 RT-Thread 的基础功能，包括线程管理、自定义 MSH (FinSH) 命令以及 GPIO 控制。
