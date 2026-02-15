@@ -1,0 +1,99 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\components\\drivers\\core",
+            "name": "rtthread/RT-Thread/components/drivers/core"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\components\\drivers\\i2c",
+            "name": "rtthread/RT-Thread/components/drivers/i2c"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\components\\drivers\\include",
+            "name": "rtthread/RT-Thread/components/drivers/include"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\components\\drivers\\ipc",
+            "name": "rtthread/RT-Thread/components/drivers/ipc"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\components\\drivers\\misc",
+            "name": "rtthread/RT-Thread/components/drivers/misc"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\components\\drivers\\phy",
+            "name": "rtthread/RT-Thread/components/drivers/phy"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\components\\drivers\\pin",
+            "name": "rtthread/RT-Thread/components/drivers/pin"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\components\\drivers\\serial",
+            "name": "rtthread/RT-Thread/components/drivers/serial"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\components\\drivers\\smp_call",
+            "name": "rtthread/RT-Thread/components/drivers/smp_call"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\components\\finsh",
+            "name": "rtthread/RT-Thread/components/finsh"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\components\\libc\\compilers\\common",
+            "name": "rtthread/RT-Thread/components/libc/compilers/common"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\components\\libc\\compilers\\common\\include",
+            "name": "rtthread/RT-Thread/components/libc/compilers/common/include"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\components\\libc\\compilers\\newlib",
+            "name": "rtthread/RT-Thread/components/libc/compilers/newlib"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\components\\libc\\posix\\io\\epoll",
+            "name": "rtthread/RT-Thread/components/libc/posix/io/epoll"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\components\\libc\\posix\\io\\eventfd",
+            "name": "rtthread/RT-Thread/components/libc/posix/io/eventfd"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\components\\libc\\posix\\io\\poll",
+            "name": "rtthread/RT-Thread/components/libc/posix/io/poll"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\components\\libc\\posix\\ipc",
+            "name": "rtthread/RT-Thread/components/libc/posix/ipc"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\components\\net\\utest",
+            "name": "rtthread/RT-Thread/components/net/utest"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\include",
+            "name": "rtthread/RT-Thread/include"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\libcpu\\arm\\common",
+            "name": "rtthread/RT-Thread/libcpu/arm/common"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\libcpu\\arm\\cortex-m4",
+            "name": "rtthread/RT-Thread/libcpu/arm/cortex-m4"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\src",
+            "name": "rtthread/RT-Thread/src"
+        },
+        {
+            "path": "..\\..\\..\\..\\RT-Thread\\src\\klibc",
+            "name": "rtthread/RT-Thread/src/klibc"
+        }
+    ]
+}
