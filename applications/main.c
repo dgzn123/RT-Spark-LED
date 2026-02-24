@@ -21,9 +21,9 @@
 
 // 静态线程1：红色LED闪烁
 /*-----------------------------------Start---------------------------------------*/
-rt_align(RT_ALIGN_SIZE)     // 线程栈空间对齐
-static char led_red_stack[512];     // 线程栈空间为512字节
-static struct rt_thread led_red_thread;    // 线程控制块
+rt_align(RT_ALIGN_SIZE)                       // 线程栈空间对齐
+static char led_red_stack[512];               // 线程栈空间为512字节
+static struct rt_thread led_red_thread;       // 线程控制块
 
 // 线程1入口
 static void led_red_entry(void* parameter)
@@ -44,7 +44,9 @@ int led_red(void)
 
     rt_pin_mode(GPIO_LED_R, PIN_MODE_OUTPUT);
 
-    result = rt_thread_init(&led_red_thread,                 // 线程句柄，由用户提供，并指向对应的线程控制块内存地址
+//    |      result = rt_thread_init(...)             这里result = ... 检查了线程创建的结果，如果线程创建成功，result将被赋值为RT_EOK，否则会返回相应的错误代码
+//    V
+    result = rt_thread_init(&led_red_thread,          // 线程句柄，由用户提供，并指向对应的线程控制块内存地址
                             "led_red",                // 线程名称
                             led_red_entry,            // 线程入口函数
                             RT_NULL,                  // 入口函数的传入参数
@@ -58,6 +60,7 @@ int led_red(void)
         rt_thread_startup(&led_red_thread);
         rt_kprintf("LED red thread started successfully!\n");
     }
+
     return result;
 }
 
@@ -126,6 +129,7 @@ int led_green(void)
         rt_thread_startup(&led_green_thread);
         rt_kprintf("LED green thread started successfully!\n");
     }    
+
     return result;
 }
 MSH_CMD_EXPORT(led_green, led green thread sample);
